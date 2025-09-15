@@ -1,17 +1,35 @@
-// webpack.config.js
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+const isProd = process.env.NODE_ENV === "production";
+const BASE = "/hoshin-kanri/";
 
 module.exports = {
-  mode: process.env.NODE_ENV || "development",
-  entry: path.resolve(__dirname, "src/main.jsx"),
+  mode: isProd ? "production" : "development",
+  entry: "./src/main.jsx",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "assets/js/[name].js",
-    publicPath: "/",               // ← serve from /
+    publicPath: BASE,               // <-- important for GH Pages
     clean: true,
   },
-  devtool: "source-map",
+  devtool: isProd ? "source-map" : "eval-cheap-module-source-map",
+  devServer: {
+    port: 5173,
+    historyApiFallback: {
+      index: BASE,                   // serve index at /hoshin-kanri/
+    },
+    static: {
+      directory: path.join(__dirname, "public"),
+      publicPath: BASE + "assets",   // static overlay (not required but ok)
+      watch: true,
+    },
+    client: { overlay: true },
+  },
+  resolve: {
+    extensions: [".js", ".jsx"],
+  },
   module: {
     rules: [
       {
@@ -19,32 +37,33 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
-          options: { presets: ["@babel/preset-env", "@babel/preset-react"] },
+          options: {
+            presets: [["@babel/preset-env", { targets: "defaults" }], "@babel/preset-react"],
+          },
         },
       },
       {
         test: /\.s?css$/,
         use: [
-          "style-loader",
+          isProd ? MiniCssExtractPlugin.loader : "style-loader",
           { loader: "css-loader", options: { importLoaders: 1 } },
           "sass-loader",
         ],
       },
-      { test: /\.(png|jpg|jpeg|gif|svg)$/i, type: "asset/resource" },
-      { test: /\.(woff2?|ttf|eot)$/, type: "asset/resource" },
+      {
+        test: /\.(png|jpe?g|gif|svg|woff2?|ttf|eot)$/i,
+        type: "asset",
+        generator: { filename: "assets/[name][ext]" },
+      },
     ],
   },
-  resolve: { extensions: [".js", ".jsx"] },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "index.html"),
+      template: "index.html",
+      publicPath: BASE,              // ensure injected tags use /hoshin-kanri/
+    }),
+    new MiniCssExtractPlugin({
+      filename: "assets/css/[name].css",
     }),
   ],
-  devServer: {
-    port: 5173,
-    open: true,                    // ← auto-open browser
-    historyApiFallback: true,      // ← SPA routing
-    static: path.resolve(__dirname, "public"), // ← serves /data/*
-    hot: true,
-  },
 };

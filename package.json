@@ -2,11 +2,12 @@
   "name": "hoshin-kanri",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://MunoMono.github.io/hoshin-kanri",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
     "preview": "npx http-server dist -p 4173 -c-1",
-    "deploy": "npm run build && gh-pages -d dist -b gh-pages -f --dotfiles -m \"deploy: publish hoshin-kanri\""
+    "deploy": "npm run build && cp dist/index.html dist/404.html && gh-pages -d dist -b gh-pages -f --dotfiles -m \"deploy: publish hoshin-kanri\""
   },
   "dependencies": {
     "@carbon/react": "^1.90.0",
