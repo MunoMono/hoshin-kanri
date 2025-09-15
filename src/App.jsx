@@ -1,13 +1,11 @@
 // src/App.jsx
 import React from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
-import Home from "./pages/Home";
+import HoshinKanriModel from "./components/HoshinKanri/HoshinKanriModel.jsx";
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+    <div style={{ padding: "12px" }}>
+      <HoshinKanriModel dataUrl="/data/hoshin-kanri/hoshin_kanri.json" />
+    </div>
   );
 }

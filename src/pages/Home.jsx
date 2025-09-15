@@ -1,32 +1,31 @@
 // src/pages/Home.jsx
-import React, { useState } from "react";
-import { Grid, Column } from "@carbon/react";
-import HeaderBar from "../components/HeaderBar";
-import SearchBox from "../components/SearchBox";
+import React from "react";
 import HoshinKanriModel from "../components/HoshinKanri/HoshinKanriModel.jsx";
 
-export default function Home() {
-  const [query, setQuery] = useState("");
+class DevErrorBoundary extends React.Component {
+  constructor(p){ super(p); this.state = {error:null}; }
+  static getDerivedStateFromError(e){ return {error:e}; }
+  componentDidCatch(e, info){ console.error("Hoshin error:", e, info); }
+  render(){
+    if (this.state.error) {
+      return <pre style={{color:"red",padding:16,whiteSpace:"pre-wrap"}}>
+        {String(this.state.error?.stack || this.state.error)}
+      </pre>;
+    }
+    return this.props.children;
+  }
+}
 
-  // Base-relative path for JSON data (works locally and on GitHub Pages)
-  const dataBaseUrl = `${import.meta.env.BASE_URL}data/hoshin-kanri/`;
+export default function Home() {
+  const base = typeof BASE_URL !== "undefined" ? BASE_URL : "/";
+  const dataUrl = `${base}data/hoshin-kanri/hoshin-kanri.json`;
 
   return (
-    <>
-      <HeaderBar />
-      <Grid className="cds--grid cds--grid--narrow">
-        <Column lg={12} md={8} sm={4}>
-          <div className="home-search">
-            <SearchBox query={query} setQuery={setQuery} />
-          </div>
-
-          {/* Render the Hoshin Kanri model.
-              If it accepts props like query or dataUrl, pass them in here:
-              <HoshinKanriModel query={query} dataUrl={`${dataBaseUrl}hoshin-kanri.json`} />
-          */}
-          <HoshinKanriModel />
-        </Column>
-      </Grid>
-    </>
+    <div style={{ padding: 24 }}>
+      <div style={{opacity:.6, marginBottom:12}}>Home loaded · base = {base}</div>
+      <DevErrorBoundary>
+        <HoshinKanriModel dataUrl={dataUrl} />
+      </DevErrorBoundary>
+    </div>
   );
 }

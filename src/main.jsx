@@ -1,14 +1,11 @@
+// src/main.jsx
 import React, { useState } from "react";
-import ReactDOM from "react-dom/client";
+import { createRoot } from "react-dom/client";
 import App from "./App";
-import "./styles/index.scss";
 
-// Resolve initial theme once, before React renders
 const stored = typeof localStorage !== "undefined" ? localStorage.getItem("theme") : null;
 const prefersDark = typeof window !== "undefined" && window.matchMedia?.("(prefers-color-scheme: dark)").matches;
 const initialTheme = stored || (prefersDark ? "g90" : "g10");
-
-// Apply to <html data-theme="…">
 document.documentElement.setAttribute("data-theme", initialTheme);
 
 function Root() {
@@ -19,11 +16,10 @@ function Root() {
     document.documentElement.setAttribute("data-theme", next);
     try { localStorage.setItem("theme", next); } catch {}
   };
-
   return <App theme={theme} toggleTheme={toggleTheme} />;
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Root />
   </React.StrictMode>

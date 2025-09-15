@@ -1,4 +1,4 @@
-//HoshinKanriModel.jsx
+// src/components/HoshinKanri/HoshinKanriModel.jsx
 import React, { useEffect, useState } from "react";
 import {
   Grid,
@@ -12,7 +12,7 @@ import { Information } from "@carbon/icons-react";
 import MenuControls from "./MenuControls";
 import KPICard from "./KPICard";
 import Yr1AnnualObjectivesCard from "./Yr1AnnualObjectivesCard";
-import LongTermObjectivesCard from "./LongTermObjectivesCard"; // ✅ New import
+import LongTermObjectivesCard from "./LongTermObjectivesCard";
 import PrioritiesAndActivitiesCard from "./PrioritiesAndActivitiesCard";
 import LTONorthStar from "./LTONorthStar";
 import LTORecastArchive from "./LTORecastArchive";
@@ -68,15 +68,16 @@ const HoshinKanriModel = () => {
     "kpi-digitisation": KPIDigitisation,
   };
 
+  // ✅ Load directly from your static JSON
   useEffect(() => {
-    fetch("/api/system-models/hoshin/data")
+    fetch("/data/hoshin-kanri/hoshin_kanri.json")
       .then((res) => res.json())
       .then((json) => {
         setData(json);
         setLastUpdated(new Date());
       })
       .catch((error) => {
-        console.error("Error fetching Hoshin data:", error);
+        console.error("Error loading Hoshin JSON:", error);
       });
   }, []);
 
@@ -117,7 +118,7 @@ const HoshinKanriModel = () => {
             <MenuControls
               selectedView={selectedView}
               setView={setView}
-              selectedFilter={selectedFilter} // ✅ Add this line
+              selectedFilter={selectedFilter}
               setFilter={setFilter}
             />
           </Column>
@@ -155,7 +156,7 @@ const HoshinKanriModel = () => {
               {data["annual_objectives"]?.["Year 1"]?.map((item) => (
                 <Column lg={2} md={2} sm={1} key={item.id}>
                   <Yr1AnnualObjectivesCard
-                    title_prefix={item.title_prefix} // ✅ FIXED
+                    title_prefix={item.title_prefix}
                     objective={item.objective}
                     annotation={item.annotation}
                     measurement={item.maps_to_measurement?.[0]}
@@ -166,7 +167,7 @@ const HoshinKanriModel = () => {
               ))}
             </Grid>
           </>
-        ) : selectedView?.id === "lto-cards" ? ( // ✅ Injected long-term objectives card view
+        ) : selectedView?.id === "lto-cards" ? (
           <>
             <h4 style={{ color: "#5DA1B2", marginTop: "2rem" }}>
               Long-term objectives
@@ -186,7 +187,7 @@ const HoshinKanriModel = () => {
               ))}
             </Grid>
           </>
-        ) : selectedView?.id === "pa-cards" ? ( // ✅ Injected priorities and activities card view
+        ) : selectedView?.id === "pa-cards" ? (
           <>
             <h4 style={{ color: "#CCB97E", marginTop: "2rem" }}>
               Priorities and activities
@@ -244,7 +245,6 @@ const HoshinKanriModel = () => {
                 </section>
               </Column>
 
-              {/* No other changes below */}
               <Column lg={6} md={4} sm={4}>
                 <section className="hoshin-section priorities">
                   <h4>Priorities and activities</h4>
