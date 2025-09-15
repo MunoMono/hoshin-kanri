@@ -1,9 +1,11 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const isProd = process.env.NODE_ENV === "production";
-const BASE = "/hoshin-kanri/";
+const PORT = process.env.PORT || 5173;
+const PUBLIC_PATH = "/hoshin-kanri/"; // where the site lives on GitHub Pages
 
 module.exports = {
   mode: isProd ? "production" : "development",
@@ -11,21 +13,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "assets/js/[name].js",
-    publicPath: BASE,               // <-- important for GH Pages
+    publicPath: PUBLIC_PATH, // ensures script/css URLs are /hoshin-kanri/...
     clean: true,
-  },
-  devtool: isProd ? "source-map" : "eval-cheap-module-source-map",
-  devServer: {
-    port: 5173,
-    historyApiFallback: {
-      index: BASE,                   // serve index at /hoshin-kanri/
-    },
-    static: {
-      directory: path.join(__dirname, "public"),
-      publicPath: BASE + "assets",   // static overlay (not required but ok)
-      watch: true,
-    },
-    client: { overlay: true },
   },
   resolve: {
     extensions: [".js", ".jsx"],
@@ -38,32 +27,52 @@ module.exports = {
         use: {
           loader: "babel-loader",
           options: {
-            presets: [["@babel/preset-env", { targets: "defaults" }], "@babel/preset-react"],
+            presets: [
+              ["@babel/preset-env", { targets: "defaults" }],
+              ["@babel/preset-react", { runtime: "automatic" }],
+            ],
           },
         },
       },
       {
-        test: /\.s?css$/,
+        test: /\.(scss|css)$/,
         use: [
           isProd ? MiniCssExtractPlugin.loader : "style-loader",
-          { loader: "css-loader", options: { importLoaders: 1 } },
+          "css-loader",
           "sass-loader",
         ],
       },
       {
-        test: /\.(png|jpe?g|gif|svg|woff2?|ttf|eot)$/i,
-        type: "asset",
+        test: /\.(woff2?|ttf|eot|otf)$/,
+        type: "asset/resource",
         generator: { filename: "assets/[name][ext]" },
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        type: "asset/resource",
+        generator: { filename: "assets/img/[name][ext]" },
       },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: "index.html",
-      publicPath: BASE,              // ensure injected tags use /hoshin-kanri/
+      inject: "body",
     }),
     new MiniCssExtractPlugin({
       filename: "assets/css/[name].css",
     }),
+    // 👇 copy everything from public/ (includes data/ + .nojekyll)
+    new CopyWebpackPlugin({
+      patterns: [{ from: "public", to: "." }],
+    }),
   ],
+  devServer: {
+    static: { directory: path.join(__dirname, "public") },
+    port: PORT,
+    historyApiFallback: { index: PUBLIC_PATH },
+    open: false,
+    client: { overlay: true },
+  },
+  devtool: isProd ? "source-map" : "eval-cheap-module-source-map",
 };

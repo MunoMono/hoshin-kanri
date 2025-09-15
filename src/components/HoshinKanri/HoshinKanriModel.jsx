@@ -70,7 +70,7 @@ const HoshinKanriModel = () => {
 
   // ✅ Load directly from your static JSON
   useEffect(() => {
-    fetch("/data/hoshin-kanri/hoshin_kanri.json")
+    fetch("data/hoshin-kanri/hoshin_kanri.json")
       .then((res) => res.json())
       .then((json) => {
         setData(json);
