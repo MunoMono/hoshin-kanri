@@ -68,9 +68,10 @@ const HoshinKanriModel = () => {
     "kpi-digitisation": KPIDigitisation,
   };
 
-  // ✅ Load directly from your static JSON
+  // Load JSON with a path that works in dev (/) and on GitHub Pages (/hoshin-kanri/)
   useEffect(() => {
-    fetch("data/hoshin-kanri/hoshin_kanri.json")
+    const url = "data/hoshin-kanri/hoshin_kanri.json"; // relative to current base
+    fetch(url)
       .then((res) => res.json())
       .then((json) => {
         setData(json);
