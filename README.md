@@ -1,107 +1,106 @@
-# Reading Notes
+# Hoshin Kanri
 
-A live, browsable **reading notes site** powered by **React, Vite, and IBM Carbon Design System**.  
-Notes are generated from a BibTeX library, organised A–Z by author, and rendered as Markdown with metadata.
-
-Live version: [https://munomono.github.io/reading-notes/](https://munomono.github.io/reading-notes/)
+This project is an interactive **Hoshin Kanri matrix** built with React, Carbon Design System, and Webpack.  
+It visualises the alignment between **long-term objectives, annual objectives, priorities & activities, and key performance indicators (KPIs)**.
 
 ---
 
-## 📚 About
+## 📖 What is Hoshin Kanri?
 
-This repository turns my Zotero-exported **BibTeX library** into a set of structured Markdown notes, grouped A–Z.  
-Each note carries frontmatter metadata (`title`, `authors`, `year`, `doi`, etc.) and a `last_updated` timestamp.
+**Hoshin Kanri** (also called policy management) is a strategic planning method used to ensure that the strategic goals of an organisation drive progress and action at every level.
 
-- **Data source**: `refs/library.bib` (Better BibTeX export from Zotero)  
-- **Framework**: React + Vite  
-- **UI**: IBM Carbon Design System (`@carbon/react`, `@carbon/styles`)  
-- **Features**:
-  - A–Z navigation pills with counts
-  - Clean entry list (authors, year, title, venue)
-  - Search & filter across all metadata
-  - Breadcrumb navigation in each note
-  - Auto-stamped **last revision date** per note
-  - Light/dark theme toggle
-  - Deployable on GitHub Pages
+In this project, the Hoshin matrix is implemented as a web app:
+
+- **Long-term objectives (LTOs)**: the "North Star" strategic aims.  
+- **Annual objectives (AOs)**: specific goals for the year.  
+- **Priorities & activities (PAs)**: practical steps to achieve AOs.  
+- **Key performance indicators (KPIs)**: measurable outcomes to track success.  
+
+The app lets you browse these relationships interactively.
 
 ---
 
-## 🚀 Usage
+## 🖥️ Features
 
-### View online
-[https://munomono.github.io/reading-notes/](https://munomono.github.io/reading-notes/)
+- **Matrix view**: Explore the four sections of the Hoshin Kanri.  
+- **View selector**: Switch between matrix, cards, or detailed component views.  
+- **Filter function**: Focus on a specific objective, activity, or KPI.  
+- **Theme toggle**: Switch between light (g10) and dark (g90) Carbon themes.  
 
-### Run locally
+---
+
+## 🚀 Running locally
+
+Clone the repository:
 
 ```bash
-git clone https://github.com/MunoMono/reading-notes.git
-cd reading-notes
-npm install
-npm run dev:all
+git clone https://github.com/MunoMono/hoshin-kanri.git
+cd hoshin-kanri
 ```
 
-This runs both:
-- the Vite dev server (`vite`)
-- the watcher that **auto-updates `last_updated`** whenever you save a Markdown note.
+Install dependencies:
 
-### Build for production
+```bash
+npm install
+```
+
+Start the dev server:
+
+```bash
+npm run dev
+```
+
+By default the app runs at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🌐 Deployment (GitHub Pages)
+
+This project is configured to deploy on **GitHub Pages**.
+
+Build the project:
 
 ```bash
 npm run build
-npm run preview
+```
+
+Push the `dist/` folder to GitHub Pages (this is automated if using GitHub Actions or `gh-pages`).
+
+The app is live at:
+
+👉 [https://munomono.github.io/hoshin-kanri/](https://munomono.github.io/hoshin-kanri/)
+
+---
+
+## 📂 Project structure
+
+```
+hoshin-kanri/
+├── public/
+│   └── data/hoshin-kanri/hoshin_kanri.json   # JSON data powering the app
+├── src/
+│   ├── components/                           # Header, Footer, Hoshin components
+│   ├── pages/                                # Home page
+│   ├── styles/                               # Global SCSS styling
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── webpack.config.js
+└── README.md
 ```
 
 ---
 
-## 📝 Workflow Cheatsheet
+## 📸 Screenshots
 
-### 1. Create a new note
-
-```bash
-./scripts/newnote.sh <citekey|doi|url>
-```
-
-- Creates a new Markdown file in the correct A–Z folder.  
-- Auto-fills frontmatter from `refs/library.bib`.  
-- Immediately stamps `last_updated`.  
-
-### 2. Develop locally (with live stamping)
-
-```bash
-npm run dev:all
-```
-
-- Starts dev server **and** auto-stamps on save.  
-- Open [http://localhost:5173/reading-notes/](http://localhost:5173/reading-notes/)  
-
-### 3. Deploy to GitHub Pages
-
-```bash
-npm run deploy
-```
-
-- Stamps all notes  
-- Rebuilds `index.json`  
-- Builds site into `dist/`  
-- Publishes with `.nojekyll` to `gh-pages`
+See `/docs` or repo issues for current UI screenshots.
 
 ---
 
-## 🛠 Development
+## 📝 License
 
-Key source files:
-
-- `src/App.jsx` — main app & router
-- `src/pages/Home.jsx` — A–Z entry list & search
-- `src/pages/Doc.jsx` — renders individual notes
-- `scripts/newnote.sh` — creates new notes from `refs/library.bib`
-- `scripts/stamp-notes.mjs` — manages `last_updated` stamping
-- `scripts/build-docs-index.mjs` — rebuilds `public/docs/index.json`
-- `src/styles/index.scss` — Carbon + global overrides
-
----
-
-## 🔖 License
-
-- Bibliographic **data**: [CC BY 4.0](./LICENSE-CC-BY-4.0.txt)  
-- Application code + configs: [MIT](./LICENSE)  
+MIT License.  
+Copyright (c) Graham Newman.

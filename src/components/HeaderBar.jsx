@@ -10,12 +10,13 @@ import { Moon, Sun } from "@carbon/icons-react";
 
 function HeaderBar({ theme, toggleTheme }) {
   const isDark = theme === "g90";
-  const base = import.meta.env.BASE_URL || "/"; // ensures the name links home in dev & GH Pages
+  // Safe in dev and on GH Pages (project pages)
+  const base = "./";
 
   return (
     <Header aria-label="Hoshin kanri">
       <HeaderName href={base} prefix="">
-        Graham Newman hoshin kanri
+        Graham Newman RCA PhD hoshin kanri
       </HeaderName>
 
       <HeaderGlobalBar>
@@ -25,7 +26,11 @@ function HeaderBar({ theme, toggleTheme }) {
           tooltipAlignment="end"
           title={isDark ? "Light mode" : "Dark mode"}
         >
-          {isDark ? <Sun size={20} aria-hidden="true" /> : <Moon size={20} aria-hidden="true" />}
+          {isDark ? (
+            <Sun size={20} aria-hidden="true" />
+          ) : (
+            <Moon size={20} aria-hidden="true" />
+          )}
         </HeaderGlobalAction>
       </HeaderGlobalBar>
     </Header>

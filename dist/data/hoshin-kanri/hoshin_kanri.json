@@ -756,8 +756,8 @@
     {
       "id": "KPI 5",
       "title_prefix": "KPI 5.",
-      "title_snippet": "U ",
-      "objective": "Successful implementation and usability score (from user testing) of the interactive taxonomy and visualisation platform.",
+      "title_snippet": "Successful implementation and usability score",
+      "objective": "Successful implementation and usability score from user testing) of the interactive taxonomy and visualisation platform.",
       "maps_to": [
         {
           "id": "Long-term objective 2",
@@ -815,7 +815,7 @@
     {
       "id": "KPI 7",
       "title_prefix": "KPI 7.",
-      "title_snippet": " ",
+      "title_snippet": "Number of expert interviews conducted",
       "objective": "Number of expert interviews conducted, transcribed, and used to inform methodological or interpretive decisions.",
       "maps_to": [
         {
