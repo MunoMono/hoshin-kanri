@@ -5,7 +5,9 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 const isProd = process.env.NODE_ENV === "production";
 const PORT = process.env.PORT || 5173;
-const PUBLIC_PATH = "/hoshin-kanri/"; // where the site lives on GitHub Pages
+
+// ✅ Use / in dev, /hoshin-kanri/ in prod
+const PUBLIC_PATH = isProd ? "/hoshin-kanri/" : "/";
 
 module.exports = {
   mode: isProd ? "production" : "development",
@@ -13,7 +15,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "assets/js/[name].js",
-    publicPath: PUBLIC_PATH, // ensures script/css URLs are /hoshin-kanri/...
+    publicPath: PUBLIC_PATH, // ensures script/css URLs are correct
     clean: true,
   },
   resolve: {
@@ -70,7 +72,7 @@ module.exports = {
   devServer: {
     static: { directory: path.join(__dirname, "public") },
     port: PORT,
-    historyApiFallback: { index: PUBLIC_PATH },
+    historyApiFallback: { index: "/" }, // ✅ dev fallback to /
     open: false,
     client: { overlay: true },
   },

@@ -336,17 +336,6 @@ const HoshinKanriModel = () => {
             </Grid>
           </>
         )}
-
-        {/* Last updated footer */}
-        <Grid>
-          <Column lg={16} md={8} sm={4}>
-            {lastUpdated && (
-              <p className="last-updated" style={{ marginTop: "2rem" }}>
-                Last updated {formatDate(lastUpdated)}
-              </p>
-            )}
-          </Column>
-        </Grid>
       </div>
     </Theme>
   );
