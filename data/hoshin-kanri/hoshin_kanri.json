@@ -1,0 +1,1140 @@
+{
+  "long_term_objectives": [
+    {
+      "id": "Long-term objective 1",
+      "title_prefix": "1. North Star: Make a significant contribution to knowledge",
+      "objective": "Position the research as a critically rigorous, strategically purposeful intervention that reshapes both scholarly discourse and public-facing design practice\u2014anchoring epistemological innovation in real-world relevance while sustaining value far beyond the doctoral study.",
+      "why": "Anchors the research in real-world and disciplinary relevance by producing work that is critically rigorous, strategically purposeful, and epistemologically transformative\u2013shaping both scholarly discourse and public-facing design practice.",
+      "how": "Aligns all theory and practice dimensions to a clearly defined trajectory, ensuring the work is not only methodologically sound but capable of reconfiguring design historiography and knowledge systems in ways that endure beyond the doctorate.",
+      "maps_to_priorities": [
+        "Priorities and activities 1"
+      ],
+      "maps_to_y1_objectives": [
+        "Yr 1 annual objective 3",
+        "Yr 1 annual objective 4"
+      ],
+      "maps_to_kpi": [
+        "KPI 1",
+        "KPI 3",
+        "KPI 10"
+      ],
+      "maps_to_measurement": [
+        "Binary milestone",
+        "Technical milestone"
+      ],
+      "maps_to": [
+        {
+          "id": "Priorities and activities 1",
+          "tooltip": "Digitise and computationally enrich the L. Bruce Archer and RCA Department of Design Research Archives using NLP, topic modelling, and ML.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 3",
+          "tooltip": "Obtain ethical approval and formal access to archives at RCA and V&A East Storehouse.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 4",
+          "tooltip": "Initiate computational analysis pipeline: OCR, NLP, topic modelling, and metadata schema setup.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 1",
+          "tooltip": "Number of digitised and semantically enriched archival documents made machine-readable through OCR, NLP, and topic modelling.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 3",
+          "tooltip": "Number of digitised and semantically enriched archival documents made machine-readable through OCR, NLP, and topic modelling.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 10",
+          "tooltip": "Postdoctoral positioning metrics: submission of funding applications, invitations to collaborate, or confirmed research partnerships.",
+          "trigger": "icon"
+        }
+      ]
+    },
+    {
+      "id": "Long-term objective 2",
+      "title_prefix": "2. Recast the archives to be fit for purpose",
+      "objective": "Transform a historically static corpus into a generative research infrastructure through AI-driven analysis and participatory reclassification\u2014bridging 20th-century design logic with contemporary digital humanities to enable real-time engagement and dynamic hypothesis modelling.",
+      "why": "Transforms a static archival corpus into a generative research infrastructure\u2013bridging 20th-century systematic design methods with 21st-century digital humanities, and repositioning it as a dynamic asset for scholarly, pedagogical, and public engagement.",
+      "how": "Applies context engineering, machine learning and metadata enrichment (e.g., optical character recognition (OCR), natural language processing (NLP) and topic modelling) to digitise and activate the archive, embedding interactive modelling and simulation tools that enable real-time engagement with historical design hypotheses.",
+      "maps_to_priorities": [
+        "Priorities and activities 1",
+        "Priorities and activities 3"
+      ],
+      "maps_to_y1_objectives": [
+        "Yr 1 annual objective 3",
+        "Yr 1 annual objective 4",
+        "Yr 1 annual objective 6"
+      ],
+      "maps_to_kpi": [
+        "KPI 3",
+        "KPI 5",
+        "KPI 9"
+      ],
+      "maps_to_measurement": [
+        "Technical milestone",
+        "Functional prototype"
+      ],
+      "maps_to": [
+        {
+          "id": "Priorities and activities 1",
+          "tooltip": "Digitise and computationally enrich the L. Bruce Archer and RCA Department of Design Research Archives using NLP, topic modelling, and ML.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 3",
+          "tooltip": "Build, test and deploy the interactive taxonomy and visualisation platform, integrating linked open data and AI augmentation.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 3",
+          "tooltip": "Obtain ethical approval and formal access to archives at RCA and V&A East Storehouse.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 4",
+          "tooltip": "Initiate computational analysis pipeline: OCR, NLP, topic modelling, and metadata schema setup.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 6",
+          "tooltip": "Prototype the first version of the interactive taxonomy using a subset of annotated data.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 3",
+          "tooltip": "Number of digitised and semantically enriched archival documents made machine-readable through OCR, NLP, and topic modelling.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 5",
+          "tooltip": "Successful implementation and usability score (from user testing) of the interactive taxonomy and visualisation platform.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 9",
+          "tooltip": "Degree of semantic interoperability achieved via LOD compliance, open metadata formats, and platform API access.",
+          "trigger": "icon"
+        }
+      ]
+    },
+    {
+      "id": "Long-term objective 3",
+      "title_prefix": "3. Build a durable infrastructure for open design research",
+      "objective": "Establish a standards-compliant, open-access platform underpinned by linked open data, semantic metadata, and scalable taxonomies\u2014ensuring long-term knowledge preservation, interoperability, and scholarly reuse across diverse institutional, educational, and public-facing design ecosystems.",
+      "why": "Establishes the foundational material for long-term knowledge preservation and scholarly reuse\u2013enabling future designers, educators, and institutions to engage with, extend, and reinterpret archival insights at scale.",
+      "how": "Constructs an open-access, standards-compliant research platform integrating scalable metadata structures, linked open data (LOD), and transparent documentation\u2013ensuring semantic interoperability and institutional adaptability beyond the doctoral scope.",
+      "maps_to_priorities": [
+        "Priorities and activities 1",
+        "Priorities and activities 3",
+        "Priorities and activities 5"
+      ],
+      "maps_to_y1_objectives": [
+        "Yr 1 annual objective 1",
+        "Yr 1 annual objective 4",
+        "Yr 1 annual objective 5"
+      ],
+      "maps_to_kpi": [
+        "KPI 1",
+        "KPI 3",
+        "KPI 7",
+        "KPI 9"
+      ],
+      "maps_to_measurement": [
+        "Qualitative milestone",
+        "Technical milestone",
+        "Countable engagement"
+      ],
+      "maps_to": [
+        {
+          "id": "Priorities and activities 1",
+          "tooltip": "Digitise and computationally enrich the L. Bruce Archer and RCA DDR archives using NLP, topic modelling and machine learning (ML).",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 3",
+          "tooltip": "Build, test and deploy the interactive taxonomy and visualisation platform, integrating linked open data and AI augmentation.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 5",
+          "tooltip": "Conduct qualitative interviews with design historians and digital humanities scholars to triangulate and refine the critical inquiry.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 1",
+          "tooltip": "Complete comprehensive literature review and methodological landscape mapping.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 4",
+          "tooltip": "Initiate computational analysis pipeline: OCR, NLP, topic modelling, and metadata schema setup.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 5",
+          "tooltip": "Conduct initial in-depth interviews with academic and archival stakeholders.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 1",
+          "tooltip": "Evidence of the project\u2019s scholarly and societal impact through citations, public engagement, and qualitative feedback from users and stakeholders.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 3",
+          "tooltip": "Number of digitised and semantically enriched archival documents made machine-readable through OCR, NLP, and topic modelling.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 7",
+          "tooltip": "Number of expert interviews conducted, transcribed, and used to inform methodological or interpretive decisions.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 9",
+          "tooltip": "Degree of semantic interoperability achieved via LOD compliance, open metadata formats, and platform API access.",
+          "trigger": "icon"
+        }
+      ]
+    },
+    {
+      "id": "Long-term objective 4",
+      "title_prefix": "4. Advance innovation in design historiography",
+      "objective": "Fuse computational methods with critical design theory to challenge canonical classifications\u2013developing inclusive metadata schemas, reusable research tools, and interactive taxonomies that expand epistemic frameworks and redefine the structure of historical design knowledge.",
+      "why": "Positions the research at the forefront of methodological convergence between computational analysis and critical design theory\u2013developing new epistemic frameworks for understanding, classifying, and modelling design history.",
+      "how": "Synthesises context engineering, machine learning, critical theory, and user-centred design into a reproducible methodology. Outputs include a reusable metadata schema, peer-reviewed publications, and an interactive taxonomy engine to shape future disciplinary discourse.",
+      "maps_to_priorities": [
+        "Priorities and activities 5"
+      ],
+      "maps_to_y1_objectives": [
+        "Yr 1 annual objective 5"
+      ],
+      "maps_to_kpi": [
+        "KPI 7"
+      ],
+      "maps_to_measurement": [
+        "Countable engagement"
+      ],
+      "maps_to": [
+        {
+          "id": "Priorities and activities 5",
+          "tooltip": "Conduct qualitative interviews with design historians and digital humanities scholars to triangulate and refine the critical inquiry.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 5",
+          "tooltip": "Conduct initial in-depth interviews with academic and archival stakeholders.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 7",
+          "tooltip": "Number of expert interviews conducted, transcribed, and used to inform methodological or interpretive decisions.",
+          "trigger": "icon"
+        }
+      ]
+    },
+    {
+      "id": "Long-term objective 5",
+      "title_prefix": "5. Embed pluralism into design history and knowledge",
+      "objective": "Embed pluralism into design history and knowledge by recognising multiple cultural, methodological, and epistemological perspectives\u2013challenging dominant narratives towards a more inclusive, representative understanding of design and design history.",
+      "why": "Challenges dominant historiographical paradigms by embedding pluralistic epistemologies\u2013ensuring that design knowledge evolves with cultural accountability, ethical depth, and representational integrity.",
+      "how": "Implements critical librarianship and participatory metadata strategies to restructure archival classification. Conducts equity audits, develops inclusive vocabularies, and publishes open guidance for pluralist design research infrastructures.",
+      "maps_to_priorities": [
+        "Priorities and activities 2",
+        "Priorities and activities 3"
+      ],
+      "maps_to_y1_objectives": [
+        "Yr 1 annual objective 2",
+        "Yr 1 annual objective 6"
+      ],
+      "maps_to_kpi": [
+        "KPI 4",
+        "KPI 5",
+        "KPI 6",
+        "KPI 9"
+      ],
+      "maps_to_measurement": [
+        "Structural analysis + feedback",
+        "Functional prototype"
+      ],
+      "maps_to": [
+        {
+          "id": "Priorities and activities 2",
+          "tooltip": "Conduct critical archival inquiry through metadata structuring, critical librarianship, and marginalised voices historiography.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 3",
+          "tooltip": "Build, test and deploy the interactive taxonomy and visualisation platform, integrating linked open data and AI augmentation.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 2",
+          "tooltip": "Conduct an initial equity audit of archival metadata schemas, identifying dominant voices, gaps, and opportunities for inclusive reclassification.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 6",
+          "tooltip": "Prototype the first version of the interactive taxonomy using a subset of annotated data.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 4",
+          "tooltip": "Number and diversity of inclusive metadata categories introduced through participatory reclassification (e.g., feminist, decolonial, user-centred taxonomies).",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 5",
+          "tooltip": "Successful implementation and usability score (from user testing) of the interactive taxonomy and visualisation platform.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 6",
+          "tooltip": "Number and diversity of inclusive metadata categories introduced through participatory reclassification (e.g., feminist, decolonial, user-centred taxonomies).Volume and quality of interdisciplinary engagement events (e.g., workshops, exhibitions, co-design sessions) and associated feedback data.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 9",
+          "tooltip": "Degree of semantic interoperability achieved via LOD compliance, open metadata formats, and platform API access.",
+          "trigger": "icon"
+        }
+      ]
+    }
+  ],
+  "priorities_and_activities": [
+    {
+      "id": "PA 1",
+      "title_prefix": "1. Digitise and computationally enrich the archives",
+      "objective": "Digitise and computationally enrich the L. Bruce Archer and RCA Department of Design Research Archives using context engineering, NLP, topic modelling, and ML.",
+      "why": "Unlocks the archives as a dynamic site of inquiry by transforming analogue materials into machine-readable, semantically searchable content\u2013enabling structured exploration, thematic analysis, and new forms of computational pattern recognition.",
+      "how": "Implements a scalable digitisation pipeline combining OCR, NLP, and topic modelling with semantic enrichment techniques\u2013producing a structured corpus that supports downstream classification, taxonomy development, and real-time modelling.",
+      "maps_to_objectives": [
+        "Yr 1 annual objective 3",
+        "Yr 1 annual objective 4"
+      ],
+      "maps_to_kpis": [
+        "KPI 3",
+        "KPI 9",
+        "KPI 10"
+      ],
+      "maps_to_measurement": [
+        "Binary milestone",
+        "Technical milestone"
+      ],
+      "maps_to": [
+        {
+          "id": "Yr 1 annual objective 3",
+          "tooltip": "Obtain ethical approval and formal access to archives at RCA and V&A East Storehouse.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 4",
+          "tooltip": "Initiate computational analysis pipeline: OCR, NLP, topic modelling, and metadata schema setup.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 3",
+          "tooltip": "Number of digitised and semantically enriched archival documents made machine-readable through OCR, NLP, and topic modelling.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 9",
+          "tooltip": "Degree of semantic interoperability achieved via LOD compliance, open metadata formats, and platform API access.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 10",
+          "tooltip": "Postdoctoral positioning metrics: submission of funding applications, invitations to collaborate, or confirmed research partnerships.",
+          "trigger": "icon"
+        }
+      ]
+    },
+    {
+      "id": "PA 2",
+      "title_prefix": "2. Conduct critical inquiry through archival research",
+      "objective": "Conduct critical archival inquiry through metadata structuring, critical librarianship, and marginalised voices historiography.",
+      "why": "Interrogates the epistemic assumptions embedded in archival systems by applying critical theory to expose exclusions, unsettle canonical hierarchies, and restructure inherited knowledge models from a pluralist perspective.",
+      "how": "Applies metadata restructuring, critical librarianship, and decolonial historiographies to classify archival content through inclusive ontologies\u2013surfacing underrepresented narratives and challenging systemic biases in design historiography.",
+      "maps_to_objectives": [
+        "Yr 1 annual objective 2"
+      ],
+      "maps_to_kpis": [
+        "KPI 4",
+        "KPI 6"
+      ],
+      "maps_to_measurement": [
+        "Structural analysis + feedback"
+      ],
+      "maps_to": [
+        {
+          "id": "Yr 1 annual objective 2",
+          "tooltip": "Conduct an initial equity audit of archival metadata schemas, identifying dominant voices, gaps, and opportunities for inclusive reclassification.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 4",
+          "tooltip": "Number and diversity of inclusive metadata categories introduced through participatory reclassification (e.g., feminist, decolonial, user-centred taxonomies).",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 6",
+          "tooltip": "Number and diversity of inclusive metadata categories introduced through participatory reclassification (e.g., feminist, decolonial, user-centred taxonomies).Volume and quality of interdisciplinary engagement events (e.g., workshops, exhibitions, co-design sessions) and associated feedback data.",
+          "trigger": "icon"
+        }
+      ]
+    },
+    {
+      "id": "PA 3",
+      "title_prefix": "3. Build, test and deploy the taxonomy and visualisation app",
+      "objective": "Build, test and deploy the interactive taxonomy and visualisation platform, integrating linked open data and AI augmentation.",
+      "why": "Delivers the primary interface for interdisciplinary access, enabling new modes of engagement with design historiography and establishing a living, expandable platform for collaboration, critique, and knowledge circulation.",
+      "how": "Designs and deploys a public-facing platform integrating AI-enhanced classification, linked open data protocols, and modular visualisation tools\u2013enabling scalable interaction, interpretive transparency, and open scholarly participation.",
+      "maps_to_objectives": [
+        "Yr 1 annual objective 6"
+      ],
+      "maps_to_kpis": [
+        "KPI 5",
+        "KPI 9"
+      ],
+      "maps_to_measurement": [
+        "Functional prototype"
+      ],
+      "maps_to": [
+        {
+          "id": "Yr 1 annual objective 6",
+          "tooltip": "Prototype the first version of the interactive taxonomy using a subset of annotated data.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 5",
+          "tooltip": "Successful implementation and usability score (from user testing) of the interactive taxonomy and visualisation platform.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 9",
+          "tooltip": "Degree of semantic interoperability achieved via LOD compliance, open metadata formats, and platform API access.",
+          "trigger": "icon"
+        }
+      ]
+    },
+    {
+      "id": "PA 4",
+      "title_prefix": "4. Facilitate public-facing events to validate outcomes",
+      "objective": "Facilitate interdisciplinary workshops, exhibitions, and public engagement strategies to validate practice-based outcomes.",
+      "why": "Ensures the practical and cultural relevance of design-led tools through structured engagement with diverse publics, generating actionable feedback and situating the work within participatory research ethics.",
+      "how": "Coordinates co-creation workshops, exhibitions, and reflexive engagement sessions with academic, institutional, and community participants\u2013using these as iterative validation points to refine outputs and surface context-specific insights.",
+      "maps_to_objectives": [],
+      "maps_to_kpis": [],
+      "maps_to_measurement": [],
+      "maps_to": []
+    },
+    {
+      "id": "PA 5",
+      "title_prefix": "5: Conduct qualitative interviews to refine the critical inquiry",
+      "objective": "Conduct qualitative interviews with design historians and digital humanities scholars to triangulate and refine the critical inquiry.",
+      "why": "Deepens methodological reflexivity and epistemic triangulation by embedding interpretive nuance from disciplinary experts\u2013strengthening the credibility of computational findings and grounding critical insights in expert discourse.",
+      "how": "Conducts semi-structured interviews across relevant stakeholders, integrating perspectives from design history, archival theory, and digital humanities\u2013using them to challenge assumptions, refine classification logic, and inform metadata restructuring.",
+      "maps_to_objectives": [
+        "Yr 1 annual objective 1",
+        "Yr 1 annual objective 5"
+      ],
+      "maps_to_kpis": [
+        "KPI 1",
+        "KPI 3",
+        "KPI 7"
+      ],
+      "maps_to_measurement": [
+        "Qualitative milestone",
+        "Countable engagement"
+      ],
+      "maps_to": [
+        {
+          "id": "Yr 1 annual objective 1",
+          "tooltip": "Complete comprehensive literature review and methodological landscape mapping.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 5",
+          "tooltip": "Conduct initial in-depth interviews with academic and archival stakeholders.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 1",
+          "tooltip": "Evidence of the project\u2019s scholarly and societal impact through citations, public engagement, and qualitative feedback from users and stakeholders.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 3",
+          "tooltip": "Number of digitised and semantically enriched archival documents made machine-readable through OCR, NLP, and topic modelling.",
+          "trigger": "icon"
+        },
+        {
+          "id": "KPI 7",
+          "tooltip": "Number of expert interviews conducted, transcribed, and used to inform methodological or interpretive decisions.",
+          "trigger": "icon"
+        }
+      ]
+    }
+  ],
+  "annual_objectives": {
+    "Year 1": [
+      {
+        "id": "AO1.1",
+        "title_prefix": "1. Complete literature review and landscape mapping",
+        "objective": "Establish a rigorous conceptual foundation by mapping key debates in design historiography, digital humanities, and archival theory\u2014clarifying epistemological frameworks, surfacing methodological precedents, and informing the research design for computational and participatory archival reinterpretation.",
+        "annotation": "Establishes foundational knowledge across design historiography, digital humanities, and archival theory. Supports long-term objective 3 and priorities and activities 5 by framing the epistemic context that guides methodological development and interview protocol refinement.",
+        "maps_to_kpis": [
+          "KPI 1",
+          "KPI 3"
+        ],
+        "maps_to_measurement": [
+          "Qualitative milestone"
+        ],
+        "maps_to": [
+          {
+            "id": "KPI 1",
+            "tooltip": "Evidence of the project\u2019s scholarly and societal impact through citations, public engagement, and qualitative feedback from users and stakeholders.",
+            "trigger": "icon"
+          },
+          {
+            "id": "KPI 3",
+            "tooltip": "Number of digitised and semantically enriched archival documents made machine-readable through OCR, NLP, and topic modelling.",
+            "trigger": "icon"
+          }
+        ]
+      },
+      {
+        "id": "AO1.2",
+        "title_prefix": "2. Conduct initial equity audit of archival metadata schemas",
+        "objective": "Conduct an initial equity audit of archival metadata schemas, identifying dominant voices, gaps, and opportunities for inclusive reclassification.",
+        "annotation": "Introduces critical inquiry into systemic bias within the archive. Supports long-term objective 5 and priorities and activities 2 by laying the groundwork for pluralist restructuring and informing participatory metadata logic across the project lifecycle.",
+        "maps_to_kpis": [
+          "KPI 4",
+          "KPI 6"
+        ],
+        "maps_to_measurement": [
+          "Structural analysis + feedback"
+        ],
+        "maps_to": [
+          {
+            "id": "KPI 4",
+            "tooltip": "Number and diversity of inclusive metadata categories introduced through participatory reclassification (e.g., feminist, decolonial, user-centred taxonomies).",
+            "trigger": "icon"
+          },
+          {
+            "id": "KPI 6",
+            "tooltip": "Number and diversity of inclusive metadata categories introduced through participatory reclassification (e.g., feminist, decolonial, user-centred taxonomies).Volume and quality of interdisciplinary engagement events (e.g., workshops, exhibitions, co-design sessions) and associated feedback data.",
+            "trigger": "icon"
+          }
+        ]
+      },
+      {
+        "id": "AO1.3",
+        "title_prefix": "3. Obtain ethical approval and formal access to the archives",
+        "objective": "Secure institutional permissions and ethical clearance to access critical archival collections at RCA and V&A East Storehouse, enabling responsible digitisation, data extraction, and public dissemination while ensuring compliance with regulatory standards across academic, cultural heritage, and research governance contexts.",
+        "annotation": "Essential enabling step for long-term objectives 1 and 2, and priorities and activities 1. Ensures compliance with research ethics while facilitating digitisation, critical inquiry, and computational analysis across both institutional collections.",
+        "maps_to_kpis": [
+          "KPI 3",
+          "KPI 10"
+        ],
+        "maps_to_measurement": [
+          "Binary milestone"
+        ],
+        "maps_to": [
+          {
+            "id": "KPI 3",
+            "tooltip": "Number of digitised and semantically enriched archival documents made machine-readable through OCR, NLP, and topic modelling.",
+            "trigger": "icon"
+          },
+          {
+            "id": "KPI 10",
+            "tooltip": "Postdoctoral positioning metrics: submission of funding applications, invitations to collaborate, or confirmed research partnerships.",
+            "trigger": "icon"
+          }
+        ]
+      },
+      {
+        "id": "AO1.4",
+        "title_prefix": "4. Initiate computational analysis pipeline",
+        "objective": "Initiate computational analysis pipeline: Context engineering, OCR, NLP, topic modelling, and metadata schema setup through a structured digitisation and analysis pipeline\u2014transforming analogue content into a machine-readable corpus for semantic enrichment, pattern discovery, and taxonomic reclassification using open metadata frameworks.",
+        "annotation": "Launches the technical infrastructure at the heart of the project. Supports long-term objectives 1, 2, and 3 and priorities and activities 1 by converting analogue archives into a structured, searchable corpus for semantic enrichment and downstream modelling.",
+        "maps_to_kpis": [
+          "KPI 3",
+          "KPI 9"
+        ],
+        "maps_to_measurement": [
+          "Technical milestone"
+        ],
+        "maps_to": [
+          {
+            "id": "KPI 3",
+            "tooltip": "Number of digitised and semantically enriched archival documents made machine-readable through OCR, NLP, and topic modelling.",
+            "trigger": "icon"
+          },
+          {
+            "id": "KPI 9",
+            "tooltip": "Degree of semantic interoperability achieved via LOD compliance, open metadata formats, and platform API access.",
+            "trigger": "icon"
+          }
+        ]
+      },
+      {
+        "id": "AO1.5",
+        "title_prefix": "5. Conduct initial in-depth interviews with stakeholders ",
+        "objective": "Conduct initial in-depth interviews with academic and archival stakeholders. Integrate expert perspectives early to inform classification logic, critical framing, and interpretive nuance\u2014ensuring that computational methods reflect disciplinary expertise, institutional memory, and inclusive metadata structures grounded in reflexive and collaborative design historiography.",
+        "annotation": "Strengthens methodological reflexivity and triangulation. Supports long-term objectives 3 and 4 and priorities and activities 5 by embedding expert critique in early design of metadata schema, classification logic, and interpretive framing.",
+        "maps_to_kpis": [
+          "KPI 7"
+        ],
+        "maps_to_measurement": [
+          "Countable engagement"
+        ],
+        "maps_to": [
+          {
+            "id": "KPI 7",
+            "tooltip": "Number of expert interviews conducted, transcribed, and used to inform methodological or interpretive decisions.",
+            "trigger": "icon"
+          }
+        ]
+      },
+      {
+        "id": "AO1.6",
+        "title_prefix": "6. Deploy first version of the taxonomy",
+        "objective": "Prototype the first version of the interactive taxonomy using a subset of annotated data.",
+        "annotation": "Demonstrates early proof of concept. Supports long-term objectives 2 and 5 and priorities and activities 3 by translating archival insight into a functional, testable interface for scholarly and public engagement.",
+        "maps_to_kpis": [
+          "KPI 5",
+          "KPI 9"
+        ],
+        "maps_to_measurement": [
+          "Functional prototype"
+        ],
+        "maps_to": [
+          {
+            "id": "KPI 5",
+            "tooltip": "Successful implementation and usability score (from user testing) of the interactive taxonomy and visualisation platform.",
+            "trigger": "icon"
+          },
+          {
+            "id": "KPI 9",
+            "tooltip": "Degree of semantic interoperability achieved via LOD compliance, open metadata formats, and platform API access.",
+            "trigger": "icon"
+          }
+        ]
+      }
+    ]
+  },
+  "kpis": [
+    {
+      "id": "KPI 1",
+      "title_prefix": "KPI 1.",
+      "title_snippet": "Evidence of the project\u2019s scholarly and societal impact",
+      "objective": "Evidence of the project\u2019s scholarly and societal impact through citations, public engagement, and qualitative feedback from users and stakeholders.",
+      "maps_to": [
+        {
+          "id": "Long-term objective 3",
+          "tooltip": "Build a durable, AI-augmented infrastructure for open design research.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 5",
+          "tooltip": "Conduct qualitative interviews with design historians and digital humanities scholars to triangulate and refine the critical inquiry.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 1",
+          "tooltip": "Complete comprehensive literature review and methodological landscape mapping.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "To what extent is the research producing long-term scholarly and cultural value that exceeds the confines of the PhD thesis?",
+      "target": "Stakeholder feedback documented, public-facing value clear",
+      "moderate": "Preliminary feedback only, impact unclear",
+      "risk": "No feedback loop or engagement"
+    },
+    {
+      "id": "KPI 2",
+      "title_prefix": "KPI 2.",
+      "title_snippet": "Number and quality of durable outputs",
+      "objective": "Number and quality of durable outputs (e.g., open-access dataset, interactive platform, peer-reviewed publications) deposited, cited, or reused by others.",
+      "maps_to": [
+        {
+          "id": "Long-term objective 1",
+          "tooltip": "Make a significant, impactful, and long lasting contribution to knowledge.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "How do the outputs demonstrate long-term reuse potential and alignment with open scholarship principles?",
+      "target": "3+ durable outputs (e.g., open-access dataset, interactive platform, peer-reviewed publications) cited, deposited, or reused by others",
+      "moderate": "At least 1 durable output created, limited citation or reuse",
+      "risk": "No durable outputs created, or none shared openly"
+    },
+    {
+      "id": "KPI 3",
+      "title_prefix": "KPI 3.",
+      "title_snippet": "Number of digitised and enriched documents",
+      "objective": "Number of digitised and semantically enriched archival documents made machine-readable through context context engineering, OCR, NLP, and topic modelling.",
+      "maps_to": [
+        {
+          "id": "Long-term objective 1",
+          "tooltip": "Make a significant, impactful, and long lasting contribution to knowledge.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 2",
+          "tooltip": "Recast the L. Bruce Archer / DDR archive as a living, operational systematic framework.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 3",
+          "tooltip": "Build a durable, AI-augmented infrastructure for open design research.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 1",
+          "tooltip": "Digitise and computationally enrich the L. Bruce Archer and RCA Department of Design Research Archives using NLP, topic modelling, and ML.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 5",
+          "tooltip": "Conduct qualitative interviews with design historians and digital humanities scholars to triangulate and refine the critical inquiry.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 1",
+          "tooltip": "Complete comprehensive literature review and methodological landscape mapping.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 3",
+          "tooltip": "Obtain ethical approval and formal access to archives at RCA and V&A East Storehouse.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 4",
+          "tooltip": "Initiate computational analysis pipeline: OCR, NLP, topic modelling, and metadata schema setup.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "Is the digitisation pipeline producing a structured and scalable corpus that enables further classification and modelling?",
+      "target": "\u2265 80% of pilot archive processed",
+      "moderate": "Pipeline works but incomplete",
+      "risk": "Pipeline blocked or failing"
+    },
+    {
+      "id": "KPI 4",
+      "title_prefix": "KPI 4.",
+      "title_snippet": "Number and diversity of metadata categories",
+      "objective": "Number and diversity of inclusive metadata categories introduced through context engineering and participatory reclassification (e.g., feminist, decolonial, user-centred taxonomies).",
+      "maps_to": [
+        {
+          "id": "Long-term objective 5",
+          "tooltip": "Embed pluralism into design history and knowledge by recognising multiple cultural, methodological, and epistemological perspectives\u2014challenging dominant narratives towards a more inclusive, representative understanding of design and design history.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 2",
+          "tooltip": "Conduct critical archival inquiry through metadata structuring, critical librarianship, and marginalised voices historiography.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 2",
+          "tooltip": "Conduct an initial equity audit of archival metadata schemas, identifying dominant voices, gaps, and opportunities for inclusive reclassification.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "How effectively is the project surfacing underrepresented voices and epistemologies in archival classification?",
+      "target": "3+ new inclusive metadata fields live",
+      "moderate": "Audit complete but under-implemented",
+      "risk": "Audit incomplete or deferred"
+    },
+    {
+      "id": "KPI 5",
+      "title_prefix": "KPI 5.",
+      "title_snippet": "Successful implementation and usability score",
+      "objective": "Successful implementation and usability score from user testing) of the interactive taxonomy and visualisation platform.",
+      "maps_to": [
+        {
+          "id": "Long-term objective 2",
+          "tooltip": "Recast the L. Bruce Archer / DDR archive as a living, operational systematic framework.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 5",
+          "tooltip": "Embed pluralism into design history and knowledge by recognising multiple cultural, methodological, and epistemological perspectives \u2014 challenging dominant narratives towards a more inclusive, representative understanding of design and design history.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 3",
+          "tooltip": "Build, test and deploy the interactive taxonomy and visualisation platform, integrating linked open data and AI augmentation.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 6",
+          "tooltip": "Prototype the first version of the interactive taxonomy using a subset of annotated data.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "Is the platform legible, navigable, and valuable to both academic and public-facing users?",
+      "target": "Prototype tested with \u2265 3 users, 4.5+ avg score",
+      "moderate": "Prototype exists but untested or rated < 4.5",
+      "risk": "Prototype not delivered"
+    },
+    {
+      "id": "KPI 6",
+      "title_prefix": "KPI 6.",
+      "title_snippet": "Volume and quality of engagement events",
+      "objective": "Number and diversity of inclusive metadata categories introduced through participatory reclassification (e.g., feminist, decolonial, user-centred taxonomies). Volume and quality of interdisciplinary engagement events (e.g., workshops, exhibitions, co-design sessions) and associated feedback data.",
+      "maps_to": [
+        {
+          "id": "Long-term objective 5",
+          "tooltip": "Embed pluralism into design history and knowledge by recognising multiple cultural, methodological, and epistemological perspectives\u2014challenging dominant narratives towards a more inclusive, representative understanding of design and design history.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 2",
+          "tooltip": "Conduct critical archival inquiry through metadata structuring, critical librarianship, and marginalised voices historiography.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 2",
+          "tooltip": "Conduct an initial equity audit of archival metadata schemas, identifying dominant voices, gaps, and opportunities for inclusive reclassification.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "Are public and scholarly engagement strategies advancing critical discourse and refining research tools in practice?",
+      "target": "3+ feedback events recorded",
+      "moderate": "Limited engagement or low diversity",
+      "risk": "No engagement or unrecorded feedback"
+    },
+    {
+      "id": "KPI 7",
+      "title_prefix": "KPI 7.",
+      "title_snippet": "Number of expert interviews conducted",
+      "objective": "Number of expert interviews conducted, transcribed, and used to inform methodological or interpretive decisions.",
+      "maps_to": [
+        {
+          "id": "Long-term objective 3",
+          "tooltip": "Build a durable, AI-augmented infrastructure for open design research.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 4",
+          "tooltip": "Advance methodological innovation in design historiography.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 5",
+          "tooltip": "Conduct qualitative interviews with design historians and digital humanities scholars to triangulate and refine the critical inquiry.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 5",
+          "tooltip": "Conduct initial in-depth interviews with academic and archival stakeholders.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "How meaningfully are expert voices integrated into the project\u2019s critical and computational framing?",
+      "target": "\u2265 5 interviews transcribed and integrated",
+      "moderate": "2\u20134 interviews done",
+      "risk": "< 2 interviews or untranscribed"
+    },
+    {
+      "id": "KPI 8",
+      "title_prefix": "KPI 8.",
+      "title_snippet": "Number of peer-reviewed outputs accepted",
+      "objective": "Number of peer-reviewed outputs accepted in top-tier journals or conferences in design, digital humanities, or archival research.",
+      "maps_to": [
+        {
+          "id": "Long-term objective 5",
+          "tooltip": "Embed pluralism into design history and knowledge by recognising multiple cultural, methodological, and epistemological perspectives\u2014challenging dominant narratives towards a more inclusive, representative understanding of design and design history.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 4",
+          "tooltip": "Facilitate interdisciplinary workshops, exhibitions, and public engagement strategies to validate practice-based outcomes.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "How is the project contributing original knowledge to disciplinary communities through scholarly publication?",
+      "target": "2+ peer-reviewed outputs accepted in top-tier journals or conferences",
+      "moderate": "1 peer-reviewed output submitted but pending acceptance",
+      "risk": "No submissions or outputs fall below peer-reviewed standard"
+    },
+    {
+      "id": "KPI 9",
+      "title_prefix": "KPI 9.",
+      "title_snippet": "Degree of semantic interoperability achieved",
+      "objective": "Degree of semantic interoperability achieved via LOD compliance, open metadata formats, and platform application programming interface (API) access.",
+      "maps_to": [
+        {
+          "id": "Long-term objective 2",
+          "tooltip": "Recast the L. Bruce Archer / DDR archive as a living, operational systematic framework.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 3",
+          "tooltip": "Build a durable, AI-augmented infrastructure for open design research.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 5",
+          "tooltip": "Embed pluralism into design history and knowledge by recognising multiple cultural, methodological, and epistemological perspectives\u2014challenging dominant narratives towards a more inclusive, representative understanding of design and design history.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 1",
+          "tooltip": "Digitise and computationally enrich the L. Bruce Archer and RCA Department of Design Research Archives using NLP, topic modelling, and ML.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 3",
+          "tooltip": "Build, test and deploy the interactive taxonomy and visualisation platform, integrating linked open data and AI augmentation.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 4",
+          "tooltip": "Initiate computational analysis pipeline: OCR, NLP, topic modelling, and metadata schema setup.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 6",
+          "tooltip": "Prototype the first version of the interactive taxonomy using a subset of annotated data.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "To what extent is the platform extensible, reusable, and integrated with global knowledge infrastructures?",
+      "target": "LOD metadata operational, API live",
+      "moderate": "Metadata exists but no API",
+      "risk": "Incomplete structure, no access"
+    },
+    {
+      "id": "KPI 10",
+      "title_prefix": "KPI 10.",
+      "title_snippet": "Postdoctoral positioning metrics",
+      "objective": "Postdoctoral positioning metrics: submission of funding applications, invitations to collaborate, or confirmed research partnerships.",
+      "maps_to": [
+        {
+          "id": "Long-term objective 1",
+          "tooltip": "Make a significant, impactful, and long lasting contribution to knowledge.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 5",
+          "tooltip": "Embed pluralism into design history and knowledge by recognising multiple cultural, methodological, and epistemological perspectives\u2013challenging dominant narratives towards a more inclusive, representative understanding of design and design history.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Priorities and activities 1",
+          "tooltip": "Digitise and computationally enrich the L. Bruce Archer and RCA Department of Design Research Archives using NLP, topic modelling, and ML.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Yr 1 annual objective 3",
+          "tooltip": "Obtain ethical approval and formal access to archives at RCA and V&A East Storehouse.",
+          "trigger": "icon"
+        }
+      ],
+      "kpq": "Is the project generating momentum for a sustained research trajectory beyond the PhD?",
+      "target": "1+ postdoc application submitted",
+      "moderate": "Postdoc plan discussed but not submitted",
+      "risk": "No postdoc plan or prep"
+    }
+  ],
+  "year1_objectives_performance": [
+    {
+      "objective": "Complete literature review and method mapping",
+      "kpis": [
+        "KPI 1",
+        "KPI 3"
+      ],
+      "ltos": [
+        {
+          "id": "Long-term objective 3",
+          "tooltip": "Build a durable, AI-augmented infrastructure for open design research.",
+          "trigger": "icon"
+        }
+      ],
+      "priorities": [
+        {
+          "id": "Priorities and activities 5",
+          "tooltip": "Conduct qualitative interviews with design historians and digital humanities scholars to triangulate and refine the critical inquiry.",
+          "why": "Deepens methodological reflexivity and epistemic triangulation by embedding interpretive nuance from disciplinary experts\u2013strengthening the credibility of computational findings and grounding critical insights in expert discourse.",
+          "trigger": "icon"
+        }
+      ],
+      "type": "Qualitative milestone"
+    },
+    {
+      "objective": "Equity audit of metadata schemas",
+      "kpis": [
+        "KPI 4",
+        "KPI 6"
+      ],
+      "ltos": [
+        {
+          "id": "Long-term objective 5 (the canon)",
+          "tooltip": "Embed pluralism into design history and knowledge by recognising multiple cultural, methodological, and epistemological perspectives\u2013challenging dominant narratives towards a more inclusive, representative understanding of design and design history.",
+          "trigger": "icon"
+        }
+      ],
+      "priorities": [
+        {
+          "id": "Priorities and activities 2",
+          "tooltip": "Conduct critical archival inquiry through metadata structuring, critical librarianship, and marginalised voices historiography.",
+          "why": "Interrogates the epistemic assumptions embedded in archival systems by applying critical theory to expose exclusions, unsettle canonical hierarchies, and restructure inherited knowledge models from a pluralist perspective.",
+          "trigger": "icon"
+        }
+      ],
+      "type": "Structural analysis + feedback"
+    },
+    {
+      "objective": "Ethics approval and archive access",
+      "kpis": [
+        "KPI 3",
+        "KPI 10"
+      ],
+      "ltos": [
+        {
+          "id": "North Star long-term objective",
+          "tooltip": "Make a significant, impactful, and long lasting contribution to knowledge.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 2",
+          "tooltip": "Recast the L. Bruce Archer / DDR archive as a living, operational systematic framework.",
+          "trigger": "icon"
+        }
+      ],
+      "priorities": [
+        {
+          "id": "Priorities and activities 1",
+          "tooltip": "Digitise and computationally enrich the L. Bruce Archer and RCA Department of Design Research Archives using NLP, topic modelling, and ML.",
+          "why": "Unlocks the archives as a dynamic site of inquiry by transforming analogue materials into machine-readable, semantically searchable content\u2013enabling structured exploration, thematic analysis, and new forms of computational pattern recognition.",
+          "trigger": "icon"
+        }
+      ],
+      "type": "Binary milestone"
+    },
+    {
+      "objective": "OCR/NLP pipeline setup",
+      "kpis": [
+        "KPI 3",
+        "KPI 9"
+      ],
+      "ltos": [
+        {
+          "id": "North Star long-term objective",
+          "tooltip": "Make a significant, impactful, and long lasting contribution to knowledge",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 2",
+          "tooltip": "Recast the L. Bruce Archer / DDR archive as a living, operational systematic framework",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 3",
+          "tooltip": "Build a durable, AI-augmented infrastructure for open design research",
+          "trigger": "icon"
+        }
+      ],
+      "priorities": [
+        {
+          "id": "Priorities and activities 1",
+          "tooltip": "Digitise and computationally enrich the L. Bruce Archer and RCA Department of Design Research Archives using NLP, topic modelling, and ML",
+          "why": "Unlocks the archives as a dynamic site of inquiry by transforming analogue materials into machine-readable, semantically searchable content\u2013enabling structured exploration, thematic analysis, and new forms of computational pattern recognition.",
+          "trigger": "icon"
+        }
+      ],
+      "type": "Technical milestone"
+    },
+    {
+      "objective": "Initial stakeholder interviews",
+      "kpis": [
+        "KPI 7"
+      ],
+      "ltos": [
+        {
+          "id": "Long-term objective 3",
+          "tooltip": "Build a durable, AI-augmented infrastructure for open design research.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 4",
+          "tooltip": "Advance methodological innovation in design historiography.",
+          "trigger": "icon"
+        }
+      ],
+      "priorities": [
+        {
+          "id": "Priorities and activities 5",
+          "tooltip": "Conduct qualitative interviews with design historians and digital humanities scholars to triangulate and refine the critical inquiry",
+          "why": "Deepens methodological reflexivity and epistemic triangulation by embedding interpretive nuance from disciplinary experts\u2013strengthening the credibility of computational findings and grounding critical insights in expert discourse.",
+          "trigger": "icon"
+        }
+      ],
+      "type": "Countable engagement"
+    },
+    {
+      "objective": "Prototype interactive taxonomy",
+      "kpis": [
+        "KPI 5",
+        "KPI 9"
+      ],
+      "ltos": [
+        {
+          "id": "Long-term objective 2",
+          "tooltip": "Recast the L. Bruce Archer / DDR archive as a living, operational systematic framework.",
+          "trigger": "icon"
+        },
+        {
+          "id": "Long-term objective 5 (the canon)",
+          "tooltip": "Embed pluralism into design history and knowledge by recognising multiple cultural, methodological, and epistemological perspectives \u2014 challenging dominant narratives towards a more inclusive, representative understanding of design and design history.",
+          "trigger": "icon"
+        }
+      ],
+      "priorities": [
+        {
+          "id": "Priorities and activities 3",
+          "tooltip": "Build, test and deploy the interactive taxonomy and visualisation platform, integrating linked open data and AI augmentation.",
+          "why": "Delivers the primary interface for interdisciplinary access, enabling new modes of engagement with design historiography and establishing a living, expandable platform for collaboration, critique, and knowledge circulation.",
+          "trigger": "icon"
+        }
+      ],
+      "type": "Functional prototype"
+    }
+  ],
+  "use_cases": {
+    "lto-north-star": "Use case: Identify all objectives and activities contributing directly to the overarching vision of the PhD—its transformative purpose, scholarly ambition, and system-level impact.",
+    "lto-recast-archive": "Use case: Surface all initiatives that reinterpret the Archer archive as a dynamic framework—bridging mid-century design logic with computational tools to support real-time hypothesis modelling.",
+    "lto-ai-infrastructure": "Use case: Track the construction of AI-augmented systems that underpin the taxonomy—spanning metadata pipelines, retrieval logic, LOD structures, and semantic enrichment tools.",
+    "lto-method-innovation": "Use case: Highlight all research experiments that challenge conventional design historiography—especially where machine learning meets metadata theory and critical librarianship.",
+    "lto-recode-canon": "Use case: Isolate work aimed at restructuring archival classification to surface pluralist, intersectional, and decolonial frameworks in design knowledge.",
+    "pa-digitise-archive": "Use case: Show all steps in digitising and enriching the archive—OCR, NLP, topic modelling, metadata setup—transforming raw files into searchable data.",
+    "pa-critical-inquiry": "Use case: Gather all objectives grounded in critical theory—such as equity audits, metadata restructuring, and pluralist reinterpretation of design taxonomies.",
+    "pa-interactive-platform": "Use case: View activities contributing to the public-facing platform—spanning visualisation tools, user testing, and linked open data compliance.",
+    "pa-expert-interviews": "Use case: Filter for qualitative engagements—interviews with historians, curators, and technologists used to validate metadata and interpretive logic.",
+    "ao-equity-audit": "Use case: Audit the archive for representational imbalance—identifying gaps, exclusions, and opportunities for inclusive metadata schemas.",
+    "ao-literature-review": "Use case: Track all foundational reading and methodological mapping across digital humanities, critical design, and archival theory.",
+    "ao-ethics-access": "Use case: Surface objectives related to research ethics, institutional permissions, and equitable access to archival material.",
+    "ao-analysis-pipeline": "Use case: Focus on the buildout of the NLP pipeline—OCR, topic modelling, metadata scaffolding, and downstream inference setup.",
+    "ao-stakeholder-interviews": "Use case: Highlight participatory methods—user/stakeholder interviews shaping taxonomic structure, tagging logic, and design priorities.",
+    "ao-prototype-taxonomy": "Use case: Show development of the interactive taxonomy prototype—combining computational findings with design-led UI experiments.",
+    "kpi-publications": "Use case: Track scholarly outputs—articles, talks, or catalogues that reflect academic contribution and research dissemination.",
+    "kpi-taxonomy-usage": "Use case: Measure real-world usage of the taxonomy—adoption in teaching, research, or cultural institutions.",
+    "kpi-inclusive-metadata": "Use case: Audit inclusion-focused schema changes—new categories, tags, and classification logic driven by equity frameworks.",
+    "kpi-interviews": "Use case: Track interview outputs—volume, diversity, and how insights informed design and metadata decisions.",
+    "kpi-digitisation": "Use case: Measure progress in computational enrichment—files scanned, text parsed, and data structured for inference.",
+    "milestone-binary": "Use case: Track simple yes/no milestones—approved, submitted, completed.",
+    "milestone-technical": "Use case: Surface computational and infrastructure tasks—scripts, schemas, pipelines, and platform logic.",
+    "milestone-structural": "Use case: Isolate systemic decisions—classification changes, content architecture, or platform schema logic.",
+    "milestone-functional": "Use case: View UX/UI deliverables—prototypes, feature logic, feedback loops, and user validation events.",
+    "milestone-countable": "Use case: Gather deliverables with numeric targets—e.g., interviews completed, artefacts processed, metadata fields added."
+  }
+}
